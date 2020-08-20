@@ -18,47 +18,58 @@ const state = {
   //  a possible user setting, this could be toggled in the UI
   showCorrectAnswers: false,
   // the questions in the quiz
-  questions: [
-    {
-      text: 'What are the different ways to declare a JS variable?',
-      answers: [
-        'constant, let, variable',
-        'var, const, let, function',
-        'var, let, const'
-      ],
-      correct: 2,
-      selected: -1,
-      links: [
-        {
-          text: 'javascript.info',
-          href: 'https://javascript.info/variables'
-        },
-        {
-          text: 'Tyler McGinnis',
-          href: 'https://ui.dev/var-let-const/'
-        },
-      ]
-    },
-    {
-      text: 'What does `typeof` do?',
-      answers: [
-        'changes the type of a primitive value',
-        'returns a string describing the type of a value',
-        'determines if a value is primitive',
-        'can tell the difference between arrays and objects',
-      ],
-      correct: 1,
-      selected: -1,
-      links: [
-        {
-          text: 'javascript.info',
-          href: 'https://javascript.info/types#type-typeof'
-        },
-        {
-          text: 'MDN',
-          href: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof'
-        },
-      ]
-    }
-  ]
 };
+
+let quizQuestions = [
+  {
+    text: "Which of the following is an advantage of using JavaScript?",
+    answers: [
+      "Less server interaction",
+      "Immediate feedback to the visitors",
+      "Both of the above",
+    ],
+    correct: 2,
+    selected: -1,
+  },
+  {
+    text: "How can you get the type of arguments passed to a function?",
+    answers: [
+      "Using typeof operator",
+      "Using getType function",
+      "None of the above",
+    ],
+    correct: 0,
+    selected: -1,
+  },
+
+  {
+    text:
+      "Which built-in method removes the last element from an array and returns that element?",
+    answers: ["Last()", "Get()", "Pop()"],
+    correct: 2,
+    selected: -1,
+  },
+
+  {
+    text: "Which built-in method sorts the elements of an array?",
+    answers: ["Order()", "Sort()", "None of the above"],
+    correct: 1,
+    selected: -1,
+  },
+
+  {
+    text:
+      "Which of the following function of Array object returns a new array comprised of this array joined with other array(s) and/or value(s)?",
+    answers: ["Concat()", "Pop()", "Push()"],
+    correct: 0,
+    selected: -1,
+  },
+
+  {
+    text:
+      "Which of the following function of Array object calls a function for each element in the array?",
+    answers: ["Concat()", "For each()", "Filter()"],
+    correct: 1,
+    selected: -1,
+  },
+];
