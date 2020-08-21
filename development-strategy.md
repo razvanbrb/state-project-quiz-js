@@ -45,13 +45,13 @@ __Assigned to Yulia__
 ---
 
 
-## 3. generate quiz:  
+## 3. Generate Quiz:  
 
 **As a user I don't care about the source code of a program such as functions, arrays, objects, ... But I want to see the questions, answers,...result**
 
 __Assigned to Sayed__
 
-Created on a branch 'generateQuiz-function'
+Created on a branch called 'generateQuiz-function'
 
 What I did in this branch are:
 
