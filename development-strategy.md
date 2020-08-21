@@ -1,20 +1,26 @@
-# State: state-project-js-quiz
+# State: state-project-quiz-js
 
 
-Building this site one step at a time
+### Description
+
+This is a collaborative HTML, CSS and JavaScript project. It consists of single dynamic webpage and several JS functions with the appropriate handlers. 
+It could be useful to boost team-developing skills, to practice the knowledge of JavaScript, HTML5 and CSS3.
+
+> For this project we use an incremental development pattern, according to which each issue was developed in its own Git branch, reviewed and then added to the main project.
 
 ---
 ## 0. SETUP
 
-Write Readme 
-Create user stories
-Create issue
+> On this step the project repo was created.
 
-## 1. README
+Steps:
 
-* Write the `README.md`
-* Include a License
-* Include this `development-strategy.md` file
+- Create repo 
+- Turn on GitHub Pages
+- Create a GitHub Project Board
+- Creat development-strategy file 
+- Write User-stories
+- Make and assign issues
 
 __Assigned to Sayed__
 
@@ -22,16 +28,19 @@ __Assigned to Sayed__
 
 ---
 
-## 2. User Story: A user can see a many good quiz questions and answers
+## 1. User Story: As a user I can see a styled web page with many interesting quiz questions and choice of answers.
+
+
+
+Steps:
+
+- A new repo branch `main-quiz` was created.
+- HTML was developed.
+- CSS styling was added.
+- ShowQuestions function was built.
+- The GitHub pull request was reviewed by reviewers and the branch was merged to the `master` branch.
 
 __Assigned to Yulia__
-
-__A user can see__
-
-
-__Assigned to Yulia__
-
-Create branch 'main-quiz'
 
 ---
 
