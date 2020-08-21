@@ -26,7 +26,7 @@ function showQuestions(text, quizContainer) {
     for (let k = 0; k < text[i].answers.length; k++) {
       answers.push(
         "<label>" +
-          `<input type="radio" name="question'+i+'" value="${k}" >` +
+          '<input type="radio" name="question'+i+'" value="'+k+'" >' +
           (k + 1) +
           ": " +
           text[i].answers[k] +
@@ -44,4 +44,4 @@ function showQuestions(text, quizContainer) {
     quizContainer.appendChild(choice);
   }
 }
-showQuestions(quizQuestions, quizContainer);
+

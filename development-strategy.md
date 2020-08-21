@@ -45,14 +45,20 @@ __Assigned to Yulia__
 ---
 
 
-## 3. User Story:  
+## 3. Generate Quiz:  
+
+**As a user I don't care about the source code of a program such as functions, arrays, objects, ... But I want to see the questions, answers,...result**
 
 __Assigned to Sayed__
 
-__A user can press the displayed keys and hear the sound__
+Created on a branch called 'generateQuiz-function'
 
-Created on a branch 'generate-quiz-function'
+What I did in this branch are:
 
+1. Added a function called `generateQuiz(quizQuestions, quizContainer, resultsContainer, submitButton)`
+1. Inside of this function I called the functions `showQuestions(quizQuestions, quizContainer)`, `submitButton.onclick = function(){showResults(quizQuestions, quizContainer, resultsContainer); } ` to display the questions, answers and results
+1. Fixed a small bug in the `showQuestions(quizQuestions, quizContainer)` because before fixing the bug, a user could select answer for only one question.
+1. Added a script tag inside the index.html file for the js file `generateQuiz.js`
 
 ---
 
