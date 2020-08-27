@@ -7,3 +7,4 @@
 let quizContainer = document.getElementById("quiz");
 let resultsContainer = document.getElementById("results");
 let submitButton = document.getElementById("result_button");
+let CorrectAnswer = document.getElementById("correct");

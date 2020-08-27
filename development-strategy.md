@@ -73,13 +73,63 @@ Created on a branch 'show-questions-function'
 
 ---
 
-## 5. User Story:
+## 5. View Score
+
+__A user I want to see my score__
+
+> On click, user should be able to submit the answers
+> Calculate logic
+> On click, user should be able to see their overall score
+
+### REPO
+
+- This user story is developed on the branch `score`
+- This branch is merged to the `master` branch after completion.
+- Development Strategy was updated
+
+### HTML
+
+- [ ] Create a place where the results will be shown
+- [ ] A submit button `Your Result` was created
+- [ ] Link logic, handler, listener (init/view)
+
+### CSS
+
+- [ ] Link to design where you can find css
+
+### Views 
+
+
+### Init
+
+
+### Handlers
+
+- [ ] Read user interaction
+- [ ] Read state
+- [ ] Find answers which are correct
+- [ ] Perform core logic
+- [ ] A user can get total score 
+- [ ] Update state
+- [ ] Re-rende UI from state
+- [ ] Log action
+
+### Listeners
+
+- [ ] Clicking submit button, should show the total overall result 
+- [ ] Add event listener for click and the corresponding function
+
+### Logic
+
+- [ ] Write tests
+- [ ] Calculate results
+
+### State
+
+### Logging
+
 
 __Assigned to Anna__
-
-__A user__
-
-Created on a branch 'show-result-function'
 
 ---
 
@@ -93,9 +143,27 @@ Created on a branch 'show-questions-function'
 
 ---
 
-## Finished touched
+## 7.  Finished touched
 
 Check validation
 
-__Assigned to Murielle__
-Created on a branch 'finish touch'
+> Assigned to Murielle
+__As a site visitor, I want to see a stylish page__
+
+### Repository
+
+- developed on a branch called `FinalTouch`
+
+### HTML
+
+- adding div tag to put all the work inside
+
+### CSS
+
+- styling background image
+- styling the background containing the question and answer
+
+### JS
+- Nothing to do
+
+---
