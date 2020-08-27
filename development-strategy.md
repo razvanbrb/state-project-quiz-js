@@ -143,9 +143,27 @@ Created on a branch 'show-questions-function'
 
 ---
 
-## Finished touched
+## 7.  Finished touched
 
 Check validation
 
-__Assigned to Murielle__
-Created on a branch 'finish touch'
+> Assigned to Murielle
+__As a site visitor, I want to see a stylish page__
+
+### Repository
+
+- developed on a branch called `FinalTouch`
+
+### HTML
+
+- adding div tag to put all the work inside
+
+### CSS
+
+- styling background image
+- styling the background containing the question and answer
+
+### JS
+- Nothing to do
+
+---
