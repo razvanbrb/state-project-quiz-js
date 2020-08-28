@@ -17,11 +17,19 @@
     <script src="./src/data.js"></script>
     <script src="./src/log.js"></script>
     <script src="./src/init.js"></script>
+  
+  <!-- load logic -->
+  <script src="././src/logic/starter.js"></script>
+
+  <!-- load handlers -->
+  <script src="././src/handlers/results.js"></script>
+
   </head>
 
   <body>
+    
     <div id="quiz"></div>
-    <button id="result_button">Your Results</button>
+    <button id="result_button" onclick="showResults()">Your Results</button>
     <div id="results"></div>
 
     <!-- load listeners -->

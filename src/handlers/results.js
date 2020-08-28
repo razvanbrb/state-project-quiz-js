@@ -2,7 +2,7 @@
 
 console.log("--- loading handler: showResults");
 
-function showResults(questions, quizContainer, resultsContainer){
+function showResults(quizQuestions, quizContainer, resultsContainer){
 	debugger;
 	// gather answer containers from our quiz
 	var answerContainers = quizContainer.querySelectorAll('.answers');
@@ -12,22 +12,26 @@ function showResults(questions, quizContainer, resultsContainer){
 	var numCorrect = 0;
 	
 	// for each question...
-	for(var i=0; i < questions.length; i++){
+	for(var i=0; i < quizQuestions.length; i++){
 
 		// find selected answer -- I cant find selected answer!!
 		// how to get value of input: selected radio buttons
 		userAnswer = (answerContainers[i].querySelector('input[name=question'+i+']:checked')||{}).value;
 		
+		const numberedUserAnswer = Number(userAnswer);
+
 		// if answer is correct
-		if(userAnswer === questions[i].correct){
+		if(numberedUserAnswer === quizQuestions[i].correct){
 			// add to the number of correct answers
 			numCorrect++;
-					}
+					}  else {
+console.log(answerContainers[i]);
 		
 	}
 
 	// show number of correct answers out of total
-	resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length;
+	resultsContainer.innerHTML = numCorrect + ' out of ' + quizQuestions
+	.length;
 }
 
 
