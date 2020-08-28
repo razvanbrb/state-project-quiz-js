@@ -23,11 +23,13 @@ function showResults(quizQuestions, quizContainer, resultsContainer){
 		// if answer is correct
 		if(numberedUserAnswer === quizQuestions[i].correct){
 			// add to the number of correct answers
-			numCorrect++;
-					}  else {
+answerContainers[i].style.color = "green";
+numCorrect++;
+} else {
 console.log(answerContainers[i]);
-		
-	}
+answerContainers[i].style.color = "red";
+}
+}
 
 	// show number of correct answers out of total
 	resultsContainer.innerHTML = numCorrect + ' out of ' + quizQuestions
